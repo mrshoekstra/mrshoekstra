@@ -1,15 +1,15 @@
 <p>&ZeroWidthSpace;</p>
 <p>&ZeroWidthSpace;</p>
 
-<p><picture><img alt="Marc Hoekstra" src="logo.svg"></picture></p>
+<p role="heading" aria-level="1"><picture><img alt="Marc Hoekstra" src="src/logo.svg"></picture></p>
 
 <div>&ZeroWidthSpace;</div>
 <div>&ZeroWidthSpace;</div>
 
-<p>
+<p role="heading" aria-level="2">
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="https://085.eu/project/svg-text/Graphic%20Design/333">
-		<img alt="Graphic Design" src="https://085.eu/project/svg-text/Graphic%20Design/ccc">
+		<source media="(prefers-color-scheme: light)" srcset="src/graphic-design-333.svg">
+		<img alt="Graphic Design" src="src/graphic-design-ccc.svg">
 	</picture>
 </p>
 
@@ -19,10 +19,10 @@
 
 <div>&ZeroWidthSpace;</div>
 
-<p>
+<p role="heading" aria-level="2">
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="https://085.eu/project/svg-text/Development/333">
-		<img alt="Development" src="https://085.eu/project/svg-text/Development/ccc">
+		<source media="(prefers-color-scheme: light)" srcset="src/development-333.svg">
+		<img alt="Development" src="src/development-ccc.svg">
 	</picture>
 </p>
 
@@ -45,10 +45,10 @@
 
 <div>&ZeroWidthSpace;</div>
 
-<p>
+<p role="heading" aria-level="2">
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="https://085.eu/project/svg-text/Powered%20By/333">
-		<img alt="Powered By" src="https://085.eu/project/svg-text/Powered%20By/ccc">
+		<source media="(prefers-color-scheme: light)" srcset="src/powered-by-333.svg">
+		<img alt="Powered By" src="src/powered-by-ccc.svg">
 	</picture>
 </p>
 
@@ -57,10 +57,10 @@
 
 <div>&ZeroWidthSpace;</div>
 
-<p>
+<p role="heading" aria-level="2">
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="https://085.eu/project/svg-text/Support/333">
-		<img alt="Support" src="https://085.eu/project/svg-text/Support/ccc">
+		<source media="(prefers-color-scheme: light)" srcset="src/support-333.svg">
+		<img alt="Support" src="src/support-ccc.svg">
 	</picture>
 </p>
 
@@ -70,5 +70,5 @@
 <div>&ZeroWidthSpace;</div>
 
 <p align="center">
-	<picture><img alt="Made with ❤︎" src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8E-f00?label=%E2%80%8B%20Made+with%20%E2%80%8B&labelColor=111"></picture>
+	Made with $\color{#f00}{❤︎}$
 </p>
