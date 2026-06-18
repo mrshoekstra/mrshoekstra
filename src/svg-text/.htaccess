@@ -1,6 +1,0 @@
-<FilesMatch "\.(php|phtml)$">
-	SetHandler application/x-lsphp82
-</FilesMatch>
-
-RewriteEngine On
-RewriteRule .* index.php [L]
