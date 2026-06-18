@@ -21,7 +21,7 @@ const REGEX_CORE =
 /**
  * Derived regexes
  */
-const readmeRegex = new RegExp(`"src\\/${REGEX_CORE}"`, 'g');
+const readmeRegex = new RegExp(`"([a-z]+\\/)*src\\/${REGEX_CORE}"`, 'g');
 const fileRegex = new RegExp(`^${REGEX_CORE}$`);
 
 /**
