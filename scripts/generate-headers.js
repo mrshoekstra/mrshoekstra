@@ -3,7 +3,7 @@ const path = require('path');
 
 const README_PATH = path.join(process.cwd(), 'README.md');
 const SRC_DIR = path.join(process.cwd(), 'src');
-const TEMPLATE_PATH = path.join(process.cwd(), 'src', 'heading.svg');
+const TEMPLATE_PATH = path.join(process.cwd(), 'src', 'header.svg');
 
 const readme = fs.readFileSync(README_PATH, 'utf8');
 const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
