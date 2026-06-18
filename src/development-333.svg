@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">
+	<style>
+		<![CDATA[
+			@property --color {
+				syntax: "<color> | <url>";
+				inherits: false;
+				initial-value: url(#gradient);
+			}
+
+			text {
+				--color: #333;
+				dominant-baseline: central;
+				fill: var(--color);
+				font-family: sans-serif;
+				font-size: 100vh;
+				text-transform: uppercase;
+				transform: scaleX(50%);
+			}
+		]]>
+	</style>
+	<defs>
+		<linearGradient id="gradient" x1="0" x2="1" y1=".5" y2=".5">
+			<stop offset="0" stop-color="#f08"/>
+			<stop offset="1" stop-color="#37f"/>
+		</linearGradient>
+	</defs>
+	<text y="50%">DEVELOPMENT</text>
+</svg>
