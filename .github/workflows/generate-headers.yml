@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Generate Headers
-        run: node generate-headers.js
+        run: node scripts/generate-headers.js
 
       - name: Commit changes
         run: |
