@@ -6,7 +6,7 @@
 <div>&ZeroWidthSpace;</div>
 <div>&ZeroWidthSpace;</div>
 
-<p role="heading" aria-level="2">
+<p>
 	<picture>
 		<source media="(prefers-color-scheme: light)" srcset="src/graphic-design-333.svg">
 		<img alt="Graphic Design" src="src/graphic-design-ccc.svg">
@@ -19,7 +19,7 @@
 
 <div>&ZeroWidthSpace;</div>
 
-<p role="heading" aria-level="2">
+<p>
 	<picture>
 		<source media="(prefers-color-scheme: light)" srcset="src/development-333.svg">
 		<img alt="Development" src="src/development-ccc.svg">
@@ -45,7 +45,7 @@
 
 <div>&ZeroWidthSpace;</div>
 
-<p role="heading" aria-level="2">
+<p>
 	<picture>
 		<source media="(prefers-color-scheme: light)" srcset="src/powered-by-333.svg">
 		<img alt="Powered By" src="src/powered-by-ccc.svg">
@@ -57,7 +57,7 @@
 
 <div>&ZeroWidthSpace;</div>
 
-<p role="heading" aria-level="2">
+<p>
 	<picture>
 		<source media="(prefers-color-scheme: light)" srcset="src/support-333.svg">
 		<img alt="Support" src="src/support-ccc.svg">
