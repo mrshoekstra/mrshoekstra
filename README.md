@@ -13,6 +13,7 @@
 	</picture>
 </p>
 
+<picture><img alt="Affinity" src="https://img.shields.io/badge/Affinity-b5ee7f?logo=affinity&logoColor=fff"></picture>
 <picture><img alt="Affinity Designer" src="https://img.shields.io/badge/Affinity_Designer-1B72BE?logo=affinity-designer&logoColor=fff"></picture>
 <picture><img alt="Affinity Photo" src="https://img.shields.io/badge/Affinity_Photo-7E4DD2?logo=affinity-photo&logoColor=fff"></picture>
 <picture><img alt="SVG" src="https://img.shields.io/badge/SVG-FFB13B?logo=svg&logoColor=333"></picture>
