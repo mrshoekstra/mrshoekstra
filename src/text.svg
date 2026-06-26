@@ -23,7 +23,6 @@
 					font-family: 'Oswald', sans-serif;
 					font-size: 100vh;
 					text-transform: uppercase;
-					transform: scaleX(50%);
 				}
 			]]>
 		</style>
