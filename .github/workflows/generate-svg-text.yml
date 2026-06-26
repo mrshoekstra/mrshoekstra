@@ -18,8 +18,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
 
-      - name: Generate Headers
-        run: node scripts/generate-headers.js
+      - name: Generate SVG Text
+        run: node scripts/generate-svg-text.js
 
       - name: Commit changes
         run: |
@@ -27,5 +27,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src
-          git commit -m "auto: create SVG header files from README" || echo "No changes"
+          git commit -m "auto: create SVG text files from README" || echo "No changes"
           git push
