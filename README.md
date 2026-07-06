@@ -9,7 +9,7 @@
 <p>
 	<picture>
 		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/graphic-design-333.svg">
-		<img alt="Graphic Design" src="src/graphic-design-ccc.svg" style="height: 2.8rem;width: 100%">
+		<img alt="Graphic Design" src=".github/img/text/graphic-design-ccc.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
 
@@ -23,7 +23,7 @@
 <p>
 	<picture>
 		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/development-333.svg">
-		<img alt="Development" src="src/development-ccc.svg" style="height: 2.8rem;width: 100%">
+		<img alt="Development" src=".github/img/text/development-ccc.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
 
@@ -49,7 +49,7 @@
 <p>
 	<picture>
 		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/powered-by-333.svg">
-		<img alt="Powered By" src="src/powered-by-ccc.svg" style="height: 2.8rem;width: 100%">
+		<img alt="Powered By" src=".github/img/text/powered-by-ccc.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
 
@@ -61,7 +61,7 @@
 <p>
 	<picture>
 		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/support-333.svg">
-		<img alt="Support" src="src/support-ccc.svg" style="height: 2.8rem;width: 100%">
+		<img alt="Support" src=".github/img/text/support-ccc.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
 
