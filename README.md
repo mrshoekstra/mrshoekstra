@@ -1,14 +1,14 @@
 <p>&ZeroWidthSpace;</p>
 <p>&ZeroWidthSpace;</p>
 
-<p><picture><img alt="Marc Hoekstra" src="src/logo.svg"></picture></p>
+<p><picture><img alt="Marc Hoekstra" src=".github/img/text/logo.svg"></picture></p>
 
 <div>&ZeroWidthSpace;</div>
 <div>&ZeroWidthSpace;</div>
 
 <p>
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="src/graphic-design-333.svg">
+		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/graphic-design-333.svg">
 		<img alt="Graphic Design" src="src/graphic-design-ccc.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
@@ -22,7 +22,7 @@
 
 <p>
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="src/development-333.svg">
+		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/development-333.svg">
 		<img alt="Development" src="src/development-ccc.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
@@ -48,7 +48,7 @@
 
 <p>
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="src/powered-by-333.svg">
+		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/powered-by-333.svg">
 		<img alt="Powered By" src="src/powered-by-ccc.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
@@ -60,7 +60,7 @@
 
 <p>
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset="src/support-333.svg">
+		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/support-333.svg">
 		<img alt="Support" src="src/support-ccc.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>

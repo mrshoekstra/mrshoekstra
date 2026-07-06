@@ -2,14 +2,14 @@ const fs = require('fs');
 const path = require('path');
 
 const README_PATH = path.join(process.cwd(), 'README.md');
-const SRC_DIR = path.join(process.cwd(), 'src');
-const TEMPLATE_PATH = path.join(process.cwd(), 'src', 'text.svg');
+const OUTPUT_DIR = path.join(process.cwd(), '.github', 'img', 'text');
+const TEMPLATE_PATH = path.join(process.cwd(), '.github', 'img', 'text-template.svg');
 
 const readme = fs.readFileSync(README_PATH, 'utf8');
 const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
 
-if (!fs.existsSync(SRC_DIR)) {
-	fs.mkdirSync(SRC_DIR, { recursive: true });
+if (!fs.existsSync(OUTPUT_DIR)) {
+	fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 }
 
 /**
@@ -21,7 +21,7 @@ const REGEX_CORE =
 /**
  * Derived regexes
  */
-const readmeRegex = new RegExp(`"([a-z]+\\/)*src\\/${REGEX_CORE}"`, 'g');
+const readmeRegex = new RegExp(`"([a-z]+\\/)*\.github\\/img\\/text\\/${REGEX_CORE}"`, 'g');
 const fileRegex = new RegExp(`^${REGEX_CORE}$`);
 
 /**
@@ -45,7 +45,7 @@ while ((match = readmeRegex.exec(readme)) !== null) {
  */
 const existingFiles = new Set();
 
-for (const file of fs.readdirSync(SRC_DIR)) {
+for (const file of fs.readdirSync(OUTPUT_DIR)) {
 	const match = file.match(fileRegex);
 	if (!match) continue;
 
@@ -72,7 +72,7 @@ for (const file of referencedFiles) {
 		.replaceAll('{{COLOR}}', color)
 		.replaceAll('{{LABEL}}', label);
 
-	const outputPath = path.join(SRC_DIR, file);
+	const outputPath = path.join(OUTPUT_DIR, file);
 
 	fs.writeFileSync(outputPath, svg, 'utf8');
 	console.log(`Generated ${file}`);
@@ -85,7 +85,7 @@ for (const file of referencedFiles) {
  */
 for (const file of existingFiles) {
 	if (!referencedFiles.has(file)) {
-		fs.unlinkSync(path.join(SRC_DIR, file));
+		fs.unlinkSync(path.join(OUTPUT_DIR, file));
 		console.log(`Deleted ${file}`);
 	}
 }
