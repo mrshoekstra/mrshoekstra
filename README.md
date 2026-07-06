@@ -1,7 +1,7 @@
 <p>&ZeroWidthSpace;</p>
 <p>&ZeroWidthSpace;</p>
 
-<p><picture><img alt="Marc Hoekstra" src=".github/img/text/logo.svg"></picture></p>
+<p><picture><img alt="Marc Hoekstra" src=".github/img/logo.svg"></picture></p>
 
 <div>&ZeroWidthSpace;</div>
 <div>&ZeroWidthSpace;</div>
