@@ -40,7 +40,7 @@ while ((match = readmeRegex.exec(readme)) !== null) {
 
 /**
  * ----------------------------
- * 2. existingFiles (from src root only, regex validated)
+ * 2. existingFiles (from output dir [no subdirs], regex validated)
  * ----------------------------
  */
 const existingFiles = new Set();
@@ -55,7 +55,7 @@ for (const file of fs.readdirSync(OUTPUT_DIR)) {
 
 /**
  * ----------------------------
- * 3. Create missing files (README − src)
+ * 3. Create missing files
  * ----------------------------
  */
 for (const file of referencedFiles) {
@@ -80,7 +80,7 @@ for (const file of referencedFiles) {
 
 /**
  * ----------------------------
- * 4. Delete unused files (from src root only, regex validated)
+ * 4. Delete unused files (from output dir [no subdirs], regex validated)
  * ----------------------------
  */
 for (const file of existingFiles) {
