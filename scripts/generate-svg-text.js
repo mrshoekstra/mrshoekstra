@@ -16,7 +16,7 @@ if (!fs.existsSync(OUTPUT_DIR)) {
  * Core regex (single source of truth)
  */
 const REGEX_CORE =
-    '(?<file>(?<text>(?!-)(?:[a-z0-9]+-?)+(?<!-))-(?<color>[a-f0-9]{3}(?:[a-f0-9]{3})?)\\.svg)';
+    '(?<file>(?<text>(?!-)(?:[a-z0-9]+-?)+(?<!-))(?:-(?<color>[a-f0-9]{3}(?:[a-f0-9]{3})?)?)\\.svg)';
 
 /**
  * Derived regexes
@@ -69,7 +69,7 @@ for (const file of referencedFiles) {
 	const label = text.replace(/-/g, ' ').toUpperCase();
 
 	const svg = template
-		.replaceAll('{{COLOR}}', color)
+		.replaceAll('{{COLOR}}', color ? `#${color}` : 'currentColor')
 		.replaceAll('{{LABEL}}', label);
 
 	const outputPath = path.join(OUTPUT_DIR, file);
