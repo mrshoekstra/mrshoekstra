@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">
+	<defs>
+		<style>
+			<![CDATA[
+				:root {
+					--clr-text-light: #333;
+					--clr-text-dark: #ccc;
+					color: light-dark(var(--clr-text-light), var(--clr-text-dark));
+					color-scheme: light dark;
+				}
+
+				text {
+					dominant-baseline: central;
+					fill: currentColor;
+					font-family: 'Mona Sans VF', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Noto Sans', 'Helvetica', 'Arial', sans-serif;
+					font-size: 100vh;
+				}
+			]]>
+		</style>
+	</defs>
+	<text x="50%" y="50%">Made with <tspan fill="#f00">&#x2764;&#xFE0E;</tspan></text>
+</svg>
