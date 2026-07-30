@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">
 	<defs>
 		<style>
@@ -11,13 +11,22 @@
 				}
 
 				@property --color {
-					syntax: "<color> | <url>";
+					syntax: '<color> | <url>';
 					inherits: false;
 					initial-value: url(#gradient);
 				}
 
+				:root {
+					--root-clr-text: #333;
+					color: light-dark(
+						var(--root-clr-text),
+						oklch(from var(--root-clr-text) calc(l + 0.5241) c h)
+					);
+					color-scheme: light dark;
+				}
+
 				text {
-					--color: #{{COLOR}};
+					--color: {{COLOR}};
 					dominant-baseline: central;
 					fill: var(--color);
 					font-family: 'Oswald', sans-serif;
