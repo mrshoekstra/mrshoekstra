@@ -1,15 +1,18 @@
 <p>&ZeroWidthSpace;</p>
 <p>&ZeroWidthSpace;</p>
 
-<p><picture><img alt="Marc Hoekstra" src=".github/img/logo.svg"></picture></p>
+<p>
+	<picture>
+		<img alt="Marc Hoekstra" src=".github/img/logo.svg">
+	</picture>
+</p>
 
 <div>&ZeroWidthSpace;</div>
 <div>&ZeroWidthSpace;</div>
 
 <p>
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/graphic-design-333.svg">
-		<img alt="Graphic Design" src=".github/img/text/graphic-design-ccc.svg" style="height: 2.8rem;width: 100%">
+		<img alt="Graphic Design" src=".github/img/text/graphic-design.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
 
@@ -22,8 +25,7 @@
 
 <p>
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/development-333.svg">
-		<img alt="Development" src=".github/img/text/development-ccc.svg" style="height: 2.8rem;width: 100%">
+		<img alt="Development" src=".github/img/text/development.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
 
@@ -48,8 +50,7 @@
 
 <p>
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/powered-by-333.svg">
-		<img alt="Powered By" src=".github/img/text/powered-by-ccc.svg" style="height: 2.8rem;width: 100%">
+		<img alt="Powered By" src=".github/img/text/powered-by.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
 
@@ -60,8 +61,7 @@
 
 <p>
 	<picture>
-		<source media="(prefers-color-scheme: light)" srcset=".github/img/text/support-333.svg">
-		<img alt="Support" src=".github/img/text/support-ccc.svg" style="height: 2.8rem;width: 100%">
+		<img alt="Support" src=".github/img/text/support.svg" style="height: 2.8rem;width: 100%">
 	</picture>
 </p>
 
@@ -70,6 +70,8 @@
 
 <div>&ZeroWidthSpace;</div>
 
-<p align="center">
-	Made with $\color{#f00}{❤︎}$
+<p>
+	<picture>
+		<img alt="Made with ❤︎" src=".github/img/footer.svg" style="height: 1rem;width: 100%">
+	</picture>
 </p>
