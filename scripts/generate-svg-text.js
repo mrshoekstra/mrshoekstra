@@ -16,7 +16,7 @@ if (!fs.existsSync(OUTPUT_DIR)) {
  * Core regex (single source of truth)
  */
 const REGEX_CORE =
-    '(?<file>(?<text>(?!-)(?:[a-z0-9]+-?)+(?<!-))(?:-(?<color>[a-f0-9]{3}(?:[a-f0-9]{3})?)?)\\.svg)';
+    '(?<file>(?<text>(?!-)(?:[a-z0-9]+-?)+(?<!-))(?:-(?<color>[a-f0-9]{3}(?:[a-f0-9]{3})?))?\\.svg)';
 
 /**
  * Derived regexes
