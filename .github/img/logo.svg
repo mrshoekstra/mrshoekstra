@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 828 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 62">
 	<defs>
 		<style>
 			<![CDATA[
@@ -14,7 +14,7 @@
 					dominant-baseline: central;
 					fill: url(#gradient);
 					font-family: 'Krona One', sans-serif;
-					font-size: 75px;
+					font-size: 72px;
 					stroke: url(#gradient);
 					stroke-width: 1.25;
 					text-anchor: middle;
